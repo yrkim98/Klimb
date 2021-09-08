@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+
+        >
+        <TextView
+            android:id="@+id/l_game_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="game Name"
+            style="@android:style/TextAppearance.Large" />
+        <LinearLayout
+            android:orientation="vertical" android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/l_join_code"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="NameFrom"
+                    style="@style/TextAppearance.AppCompat.Medium" />
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/l_current_klimber"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Message.body" />
+            <TextView
+                android:id="@+id/l_game_creator"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="crea" />
+
+            <View
+                android:id="@+id/divider"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/leaderboard_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp"
+        android:footerDividersEnabled="true"
+        />
+</LinearLayout>

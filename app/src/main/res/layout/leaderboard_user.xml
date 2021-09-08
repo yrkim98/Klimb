@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:weightSum="1"
+    android:layout_marginRight="20dp"
+    android:layout_marginLeft="20dp">
+    <TextView
+        android:id="@+id/user_rank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="tag"
+        style="@style/TextAppearance.AppCompat.Large"
+        android:layout_marginRight="20dp"/>
+    <TextView
+        android:id="@+id/user_tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="tag"
+        style="@style/TextAppearance.AppCompat.Large" />
+    <Space
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="20dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Time Played: "
+        style="@style/TextAppearance.AppCompat.Medium"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/user_time"
+        style= "@style/TextAppearance.AppCompat.Medium"/>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="Game Name" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Enter game name here"
+        android:id="@+id/name"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="Max # Players" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="10"
+        android:id="@+id/max_players"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="Max Klimber Playtime" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="10"
+        android:id="@+id/max_time"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="Unique Game Code (Please Share with Friends!)" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="code"
+        android:id="@+id/game_code"/>
+
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Create Game"
+        android:layout_gravity="center"
+        android:id="@+id/createGame"/>
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Klimb</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Welcome to Klimb</string>
+    <string name="prompt_email">Username</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="firebaseServerKey">AAAAcU-6M8s:APA91bF6828V65xmdDzDyN7Rh-VvC5E8xL7Ix25F59f3hU0VoGv7XRN2djWqiDpt7VqjbyW_3aRYOImf_-AmZGSjwzZ9hQdoCg21irA5QAe_2PZslcjrzPqdnspHjzwsl47yj_WpavLN</string>
+</resources>

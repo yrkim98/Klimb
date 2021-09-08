@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "486668907467",
+    "firebase_url": "https://klimb-b207e.firebaseio.com",
+    "project_id": "klimb-b207e",
+    "storage_bucket": "klimb-b207e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:486668907467:android:7ae73338b166644f843c4e",
+        "android_client_info": {
+          "package_name": "edu.uw.jarodw.klimb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "486668907467-r3e2q0eok7mm3f840e3i514e8m0h6cvu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.uw.jarodw.klimb",
+            "certificate_hash": "b8ff024a8f20e0398212da9ede5900019a98e1db"
+          }
+        },
+        {
+          "client_id": "486668907467-3kb1571flkbpuinu75qoct5atr2behk1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTmXvUS2elITpUfpdOqZlsmo0Gtz5oFoY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "486668907467-3kb1571flkbpuinu75qoct5atr2behk1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
